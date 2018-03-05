@@ -1,0 +1,135 @@
+body {
+    font-size: 18px;
+    background-image: url('img/bg_1.jpeg'); 
+    color: #fff;
+}
+#mainContainer {
+    transform: scale(0);
+    transition: all 0.6s ease;
+   
+}
+/*-------------> the grey cover **/
+#overlays
+{
+    background-color: rgba(85, 100, 128, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;   
+}
+/*-------------> the Delete Button **/
+.delItem {
+    display: block;
+    padding: 15px;
+    background-color: #C0392B;
+    color: #fff;     
+    font-weight: 500;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: 0;
+    font-size: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-box-shadow: -3px -1px 17px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: -3px -1px 17px -1px rgba(0,0,0,0.74);
+    box-shadow: -3px -1px 17px -1px rgba(0,0,0,0.74);
+
+}
+.delItem:focus {
+    outline: none;
+}
+.delItem span {
+    margin-left: 6px;
+    font-weight: 1000;
+    padding-left: 11px;
+    border-left: 1px solid #333;
+}
+/*-------------> the Error Msg-------------- **/
+.UIContainer {
+    position: fixed;
+    top: 29%;
+    left: 31%;
+    width: 500px;
+    height: 300px;   
+    background-color: #aaa;
+   
+}
+/*-------------> the close Icon------------- **/
+.closeIcon {
+    color: #aaa;
+    background: transparent;
+    position: absolute ;
+    top: 21%; 
+    left: 59%;
+    font-size: 18px;
+    border: 2px solid #aaa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.closeIcon:focus {
+    outline: none;
+}
+     /*-----> top */
+
+.top{
+    position: relative;
+    background-color: #E2747E;
+    height: 60%;
+
+}
+.top .cross {
+    width: 18%;
+    height: 50%;
+    color: #fff;
+    background: transparent;
+    position: relative;
+    top: 26%;
+    left: 43%;
+    font-size: 71px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.bottom {
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.bottom h3 {
+    padding: 0;
+    font-size: 28px;
+    color: #3E495F;
+    margin-bottom: 0;
+}
+.bottom p {
+    font-size: 20px;
+    color: #3E495F;
+    font-weight: 500;
+}
+.close{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E2747E;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px ;
+    font-size: 20px;
+    border-radius: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 3px;;
+}
+.close:focus {
+    outline: none;
+}
+.close span {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 4px;
+}
